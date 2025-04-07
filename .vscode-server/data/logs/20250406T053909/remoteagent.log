@@ -1,0 +1,44 @@
+2025-04-06 05:39:09.972 [info] 
+
+
+
+
+2025-04-06 05:39:09.984 [info] Extension host agent started.
+2025-04-06 05:39:10.446 [info] [127.0.0.1][9174a788][ManagementConnection] New connection established.
+2025-04-06 05:39:10.691 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-04-06 05:39:11.712 [info] [127.0.0.1][72b7057e][ExtensionHostConnection] New connection established.
+2025-04-06 05:39:11.719 [info] [127.0.0.1][72b7057e][ExtensionHostConnection] <6147> Launched Extension Host Process.
+2025-04-06 05:39:12.037 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-04-06 05:39:12.172 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-8769c1cf-026c-43bc-9189-e97b68fb773e.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2084:5)
+    at Qv.g (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62793)
+    at new Qv (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62708)
+    at wP.s (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:81641)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-06 05:39:12.176 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-8070a031-2ecf-4855-a3f5-4de3c3034dcd.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2084:5)
+    at Qv.g (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62793)
+    at new Qv (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62708)
+    at wP.s (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:81641)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-06 05:39:14.494 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-04-06 05:39:14.748 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-26210cae-2f65-4a56-9e7e-c9a899587c36.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2084:5)
+    at Qv.g (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62793)
+    at new Qv (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62708)
+    at wP.s (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:81641)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-06 05:39:14.752 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-4eecdc94-38b4-4619-9595-b41f801d383e.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2084:5)
+    at Qv.g (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62793)
+    at new Qv (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:62708)
+    at wP.s (file:///home/ubuntu/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/server-main.js:176:81641)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

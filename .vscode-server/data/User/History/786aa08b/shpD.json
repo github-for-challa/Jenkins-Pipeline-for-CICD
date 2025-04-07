@@ -1,0 +1,8 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "always",
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "editor.fontSize": 20,
+    "editor.mouseWheelZoom": true
+}
