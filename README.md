@@ -35,7 +35,7 @@ A Jenkinsfile was created with the following stages:
 ### Pipeline Testing:
 - Successfully pushed changes to GitHub, which triggered the Jenkins pipeline.
 - The Docker image was built and deployed as expected.
-- The app was accessed via the public IP: [http://54.209.151.193:3000](http://54.209.151.193:3000), displaying the message **"Hello from Jenkins Pipeline!"**.
+- The app was accessed via the public IP: [http://<your-public-ip>:3000] eg;(http://54.209.151.193:3000), displaying the message **"Hello from Jenkins Pipeline!"**.
 
 ### Verification:
 - The app was successfully deployed and was accessible via the public IP address.
