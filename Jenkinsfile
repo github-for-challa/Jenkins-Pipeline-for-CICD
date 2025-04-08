@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     echo "Building Docker image..."
-                    docker.build("${IMAGE_NAME}")
+                    sh "docker build -t ${IMAGE_NAME} ."
                 }
             }
         }
@@ -34,7 +34,6 @@ pipeline {
             steps {
                 echo 'Deploying app...'
                 script {
-                    // Stop and remove old container if exists
                     sh """
                         docker rm -f ${CONTAINER_NAME} 2>/dev/null || true
                         docker run -d -p 3000:3000 --name ${CONTAINER_NAME} ${IMAGE_NAME}
