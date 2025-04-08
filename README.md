@@ -1,7 +1,8 @@
-<!--
+
 # Jenkins CI/CD Pipeline for Node.js App
 
-This repository demonstrates the implementation of a simple Jenkins CI/CD pipeline for automating the build, test, and deployment of a Node.js application with Docker.
+  This repository demonstrates the implementation of a simple Jenkins CI/CD pipeline for automating the build, test, and deployment of a Node.js application with   
+  Docker.
 
 ## Successful Steps Taken:
 
@@ -50,41 +51,41 @@ A Jenkinsfile was created with the following stages:
    git clone https://github.com/yourusername/Jenkins-Pipeline-for-CICD.git
 
 2. **Configure Jenkins:**
-   Set up Jenkins on your server (EC2 or local).
-   Link your GitHub repository to Jenkins and configure a webhook for automatic triggers.
+     Set up Jenkins on your server (EC2 or local).
+     Link your GitHub repository to Jenkins and configure a webhook for automatic triggers.
 
-   Create the Necessary Files:
-   - Dockerfile: Instructions to build the Docker image.
-   - Jenkinsfile: The CI/CD pipeline that contains steps for build, test, and deploy.
+3. # Create the Necessary Files:
+      Dockerfile: Instructions to build the Docker image.
+      Jenkinsfile: The CI/CD pipeline that contains steps for build, test, and deploy.
 
-   Push Changes to GitHub:
-   Push any changes to your GitHub repository to trigger the Jenkins pipeline.
+4. # Push Changes to GitHub:
+      Push any changes to your GitHub repository to trigger the Jenkins pipeline.
 
-   Verify the Deployment:
-   Once the pipeline completes, the app will be accessible at http://<your-public-ip>:3000.
+5. # Verify the Deployment:
+      Once the pipeline completes, the app will be accessible at http://<your-public-ip>:3000.
 
-Proofs of Successful Setup:
-- **Jenkins Dashboard:**
+# Proofs of Successful Setup:
+ **Jenkins Dashboard:**
    The Jenkins pipeline was successfully triggered and executed.
 
-- **App Running on EC2 Instance:**
+ **App Running on EC2 Instance:**
    The application is running successfully and can be accessed here: http://<your-public-ip>:3000
 
-- **Docker Container Running:**
+ **Docker Container Running:**
    The following is the output of `docker ps` showing the container is running.
 
-- **EC2 Instance Details:**
-   The EC2 instance running the app, including its public IP.
+ **EC2 Instance Details:**
+     The EC2 instance running the app, including its public IP.
 
-Files in This Repository:
-- Dockerfile: Instructions to build the Docker image for the Node.js application.
-- Jenkinsfile: Pipeline definition that includes steps for build, test, and deploy.
-- app.js: The main application file.
-- package.json: Lists dependencies for the Node.js app.
+#  Files in This Repository:
+     Dockerfile: Instructions to build the Docker image for the Node.js application.
+     Jenkinsfile: Pipeline definition that includes steps for build, test, and deploy.
+     app.js: The main application file.
+     package.json: Lists dependencies for the Node.js app.
 
-Technologies Used:
-- Jenkins: CI/CD automation.
-- Docker: Containerization of the Node.js app.
-- Node.js: Runtime for the application.
+# Technologies Used:
+   Jenkins: CI/CD automation.
+   Docker: Containerization of the Node.js app.
+   Node.js: Runtime for the application. # 
 
--->
+
