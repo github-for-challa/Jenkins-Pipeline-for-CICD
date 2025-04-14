@@ -1,9 +1,0 @@
-2025-04-06 06:01:05.408 [info] 
-
-
-
-
-2025-04-06 06:01:05.422 [info] Extension host agent started.
-2025-04-06 06:01:05.510 [info] [127.0.0.1][a47de6c1][ManagementConnection] New connection established.
-2025-04-06 06:01:05.813 [info] [127.0.0.1][d3a5fe9d][ExtensionHostConnection] New connection established.
-2025-04-06 06:01:05.820 [info] [127.0.0.1][d3a5fe9d][ExtensionHostConnection] <8880> Launched Extension Host Process.
